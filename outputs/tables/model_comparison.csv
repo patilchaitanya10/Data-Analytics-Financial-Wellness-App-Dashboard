@@ -1,0 +1,6 @@
+model,accuracy,precision,recall,f1,roc_auc,cv_f1,train_acc,overfit_gap
+Random Forest,0.845,0.81,0.596,0.687,0.853,0.615,1.0,0.155
+Gradient Boosting,0.84,0.778,0.614,0.686,0.852,0.63,0.971,0.131
+Decision Tree,0.765,0.568,0.737,0.641,0.815,0.658,0.81,0.045
+Logistic Regression,0.765,0.576,0.667,0.618,0.863,0.658,0.829,0.064
+KNN,0.745,0.667,0.211,0.32,0.755,0.311,1.0,0.255

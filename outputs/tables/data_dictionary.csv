@@ -1,0 +1,94 @@
+variable,dtype,n_unique,missing,role,description
+RespondentID,int64,1000,0,Survey,
+AdoptionReadiness,float64,11,0,Engineered,Composite adoption-readiness score
+AdoptionReadiness_z,float64,11,0,Encoding,
+FinDiscipline_Index,float64,25,0,Engineered,Composite financial-discipline score
+FinDiscipline_Index_z,float64,25,0,Encoding,
+IncomeMidpoint_INR,int64,5,0,Engineered,Income band midpoint (INR)
+IncomeMidpoint_INR_z,float64,5,0,Encoding,
+NumAppsUsed,int64,6,0,Engineered,Count of finance apps used
+NumAppsUsed_z,float64,6,0,Encoding,
+NumCreditInstruments,int64,5,0,Engineered,Count of credit instruments
+NumCreditInstruments_z,float64,5,0,Encoding,
+NumFeaturesWanted,int64,5,0,Engineered,Count of desired features
+NumFeaturesWanted_z,float64,5,0,Encoding,
+PainPoint_Index,float64,13,0,Engineered,Composite financial-pain score
+PainPoint_Index_z,float64,13,0,Encoding,
+Q10_TrackFreq,object,5,0,Survey,Expense-tracking frequency
+Q10_TrackFreq_Code,int64,5,0,Encoding,
+Q11_BNPL_EMI,int64,2,0,Survey,
+Q11_CreditCard,int64,2,0,Survey,
+Q11_EducationLoan,int64,2,0,Survey,
+Q11_None,int64,2,0,Survey,
+Q11_PersonalLoan,int64,2,0,Survey,
+Q12_NumGoals,int64,6,0,Survey,Active financial goals
+Q12_NumGoals_z,float64,6,0,Encoding,
+Q13_Anxiety,int64,5,0,Survey,Financial anxiety (1-5)
+Q14_DiffSaving,int64,5,0,Survey,Difficulty saving (1-5)
+Q15_LowConfidence,int64,5,0,Survey,Low investment confidence (1-5)
+Q16_AppsComplex,int64,5,0,Survey,Existing apps too complex (1-5)
+Q17_WantsGuidance,int64,5,0,Survey,Wants personalized guidance (1-5)
+Q18_SelfLiteracy,int64,5,0,Survey,Self-rated financial literacy (1-5)
+Q19_AICoach,int64,2,0,Survey,
+Q19_AutoBudget,int64,2,0,Survey,
+Q19_BillReminders,int64,2,0,Survey,
+Q19_CreditScore,int64,2,0,Survey,
+Q19_ExpenseSplit,int64,2,0,Survey,
+Q19_GoalSavings,int64,2,0,Survey,
+Q19_LiteracyContent,int64,2,0,Survey,
+Q19_MicroInvest,int64,2,0,Survey,
+Q19_Rewards,int64,2,0,Survey,
+Q1_Age,float64,23,0,Survey,Respondent age (years)
+Q1_Age_Outlier,int64,2,0,Encoding,
+Q1_Age_z,float64,23,0,Encoding,
+Q20_GuidanceStyle,object,3,0,Encoding,Preferred guidance style
+Q20_GuidanceStyle_Fully automated / AI-driven,int64,2,0,Encoding,
+Q20_GuidanceStyle_Human advisor on demand,int64,2,0,Encoding,
+Q20_GuidanceStyle_Self-directed tools only,int64,2,0,Encoding,
+Q21_DecisionFactor,object,5,0,Encoding,Key app-choice factor
+Q21_DecisionFactor_Brand reputation & trust,int64,2,0,Encoding,
+Q21_DecisionFactor_Data security & privacy,int64,2,0,Encoding,
+Q21_DecisionFactor_Ease of use,int64,2,0,Encoding,
+Q21_DecisionFactor_Low cost / affordability,int64,2,0,Encoding,
+Q21_DecisionFactor_Returns / performance,int64,2,0,Encoding,
+Q22_WTP_INR,float64,28,0,Survey,Willingness to pay (INR/mo)
+Q22_WTP_INR_Outlier,int64,2,0,Encoding,
+Q22_WTP_INR_z,float64,28,0,Encoding,
+Q23_PricingModel,object,4,0,Encoding,Preferred pricing model
+Q23_PricingModel_Annual subscription (discounted),int64,2,0,Encoding,
+Q23_PricingModel_Free with ads,int64,2,0,Encoding,
+Q23_PricingModel_Freemium (free core + paid upgrades),int64,2,0,Encoding,
+Q23_PricingModel_Monthly subscription,int64,2,0,Encoding,
+Q24_TrialLikelihood,int64,5,0,Survey,Free-trial likelihood (1-5)
+Q25_Subscribe,object,3,0,Target,Would subscribe (Yes/No/Maybe)
+Q25_Subscribe_Code,int64,3,0,Encoding,
+Q2_Gender,object,4,0,Survey,Gender
+Q2_Gender_Female,int64,2,0,Encoding,
+Q2_Gender_Male,int64,2,0,Encoding,
+Q2_Gender_Non-binary / other,int64,2,0,Encoding,
+Q2_Gender_Prefer not to say,int64,2,0,Encoding,
+Q3_CityTier,object,3,0,Survey,City tier (1/2/3)
+Q3_CityTier_Code,int64,3,0,Encoding,
+Q4_Education,object,4,0,Survey,Highest education
+Q4_Education_Code,int64,4,0,Encoding,
+Q5_Employment,object,6,0,Survey,Employment type
+Q5_Employment_Currently not working,int64,2,0,Encoding,
+Q5_Employment_Gig worker / freelancer,int64,2,0,Encoding,
+Q5_Employment_Salaried — government / public sector,int64,2,0,Encoding,
+Q5_Employment_Salaried — private sector,int64,2,0,Encoding,
+Q5_Employment_Self-employed / business owner,int64,2,0,Encoding,
+Q5_Employment_Student,int64,2,0,Encoding,
+Q6_IncomeBand,object,5,0,Survey,Monthly income band
+Q6_IncomeBand_Code,int64,5,0,Encoding,
+Q7_SavingsRate,object,5,0,Survey,Share of income saved
+Q7_SavingsRate_Code,int64,5,0,Encoding,
+Q8_BudgetMethod,object,5,0,Survey,Budgeting method
+Q8_BudgetMethod_Code,int64,5,0,Encoding,
+Q9_BNPL,int64,2,0,Survey,
+Q9_BudgetApp,int64,2,0,Survey,
+Q9_CreditCard,int64,2,0,Survey,
+Q9_MF_Stock,int64,2,0,Survey,
+Q9_None,int64,2,0,Survey,
+Q9_UPI,int64,2,0,Survey,
+Subscribe_Binary,int64,2,0,Target,TARGET: subscribes (Yes=1)
+WTP_Positive,int64,2,0,Engineered,Willing to pay >0 (flag)

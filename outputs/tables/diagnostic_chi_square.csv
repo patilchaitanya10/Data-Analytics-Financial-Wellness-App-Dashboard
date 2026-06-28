@@ -1,0 +1,10 @@
+variable,chi2,p_value,cramers_v,significant_5pct
+Q23_PricingModel,54.54,0.0,0.234,True
+Q6_IncomeBand,37.64,0.0,0.194,True
+Q4_Education,15.97,0.00115,0.126,True
+Q8_BudgetMethod,10.97,0.0269,0.105,True
+Q5_Employment,10.03,0.07426,0.1,False
+Q20_GuidanceStyle,9.66,0.00798,0.098,True
+Q7_SavingsRate,8.63,0.07093,0.093,False
+Q21_DecisionFactor,1.43,0.83909,0.038,False
+Q3_CityTier,0.44,0.80222,0.021,False
